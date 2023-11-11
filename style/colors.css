@@ -1,0 +1,23 @@
+html{
+    --background-color: #0f1011;
+    --header-background-color: #181A1B;
+
+    --header-text-color: #c5c5c5;
+    --header-text-hover: #52e652;
+
+    --welcome-text: #bbbbbb;
+
+    --h2-light-background: #f1e8e8;
+    --h2-dark-background: #1f1e1e;
+
+    --h2-light-text: #f7f7f7;;
+    --h2-dark-text: rgb(29, 31, 29);
+
+
+    --light-box-text:rgb(27, 26, 26);;
+    --dark-box-text:#eff8ee;
+
+    --light-box-background: #d4d4d4;
+    --dark-box-background: #222324;;
+
+}

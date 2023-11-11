@@ -1,0 +1,121 @@
+.contact-wrapper{
+  margin-bottom: 10vh;
+
+}
+
+
+
+
+.contact-form-group label {
+  display: block;
+  margin: 2rem 0 0.5rem 0;
+}
+.contact-form-group input[type="text"],
+.contact-form-group input[type="email"],
+.contact-form-group textarea {
+  width: 100%;
+  padding: 1rem 0.8rem;
+  border: 2px solid rgba(141, 139, 139, 0.2);
+  outline: 0;
+  transition: border 0.15s;
+}
+.contact-form-group input {
+  height: 1rem;
+  border: 1px solid #949494;
+}
+.contact-form-group textarea {
+  resize: vertical;
+}
+.contact-submit {
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  border: none;
+  background: rgba(173, 216, 230, 0.7);
+  cursor: pointer;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.contact-submit:hover {
+  background: rgb(174, 175, 175);
+}
+
+
+.contact-wrapper{
+  border-radius: 7px 7px 7px 7px;
+-webkit-border-radius: 7px 7px 7px 7px;
+-moz-border-radius: 7px 7px 7px 7px;
+box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
+-webkit-box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
+-moz-box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
+cursor: pointer;
+border: 2px solid #aaa5a5;
+background-color: #303030;
+padding: 25px;
+width: 28vw;
+font-size: 1.5rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-flex{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  margin: 5%;
+}
+.contact p {
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  font-size: 1rem;
+  text-align: center;
+}
+
+h4{
+  margin-top: 5px;
+}
+
+.boitecontact{
+  display: flex;
+  justify-content: center;
+
+}
+
+h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.contact-title{
+  background-color: rgb(29, 32, 29);
+  padding: 15px;
+  border-radius: 16px;
+  margin-top: 0;
+}
+
+
+
+@media screen and (max-width:1200px) {
+.contact-wrapper{
+  width: 90%;
+  background-image: #333333;
+}
+}
