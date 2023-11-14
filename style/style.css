@@ -127,7 +127,14 @@ h2 {
   cursor: default;
   background-color: var(--h2-dark-background);
   
-  padding: 10px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+
+
   border-radius: 12px;
   -moz-border-radius: 12px;
   -webkit-border-radius: 12px;
@@ -473,9 +480,7 @@ footer {
 
 
 .apropos_p{
-
   overflow: hidden;
-  margin-left: 5%;
   align-self: start;
   font-size: 1.15rem;
   margin-bottom: 5vh;
@@ -640,6 +645,7 @@ height: auto;
   
 #connaissances a, .contact a{
   width: 25vw;
+  height: auto;
 }
 
 }
