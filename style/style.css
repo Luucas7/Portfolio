@@ -128,9 +128,9 @@ h2 {
   background-color: var(--h2-dark-background);
   
   padding: 10px;
-  border-radius: 12px 12px 12px 12px;
-  -moz-border-radius: 12px 12px 12px 12px;
-  -webkit-border-radius: 12px 12px 12px 12px;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
   -webkit-box-shadow: 4px 4px 5px 0px rgba(41, 41, 41, 0.75);
   -moz-box-shadow: 4px 4px 5px 0px rgba(41, 41, 41, 0.75);
   box-shadow: 4px 4px 5px 0px rgba(41, 41, 41, 0.75);
@@ -390,6 +390,7 @@ h3{
 }
 
 .lien {
+  font-size: 25px;
   color: rgb(75, 224, 95);
 }
 
@@ -470,6 +471,7 @@ footer {
 }
 
 
+
 .apropos_p{
 
   overflow: hidden;
@@ -482,9 +484,9 @@ footer {
   border: 2px solid #aaa5a5;
   word-wrap: break-word;
 
-border-radius: 7px 7px 7px 7px;
--webkit-border-radius: 7px 7px 7px 7px;
--moz-border-radius: 7px 7px 7px 7px;
+border-radius: 7px;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
 box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
 -webkit-box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
 -moz-box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
