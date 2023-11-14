@@ -566,7 +566,7 @@ height: auto;
 
   h2 {
     font-size: 2rem;
-    width: 75vw;
+    min-width: 55vw;
   }
 
   .contact-flex{
