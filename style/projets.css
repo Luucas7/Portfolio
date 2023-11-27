@@ -1,31 +1,34 @@
 .full-projet{
-    width: 50vw;
-    min-height: 70vh;
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
     -webkit-box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
     -moz-box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
-    cursor: pointer;
     border: 2px solid #aaa5a5;
     background-color: #303030;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 1.5rem;
     justify-content: start;
+    margin-top: 10vh;
 }
 
 h3{
     font-size: 2.5rem;
-    font-family: 'Helvetica', 'Arial', sans-serif;
     color: #d6d2d2;
     margin: 0;
 }
 
-.full-projet p {
-    font-size: 16px;
+h4{
+    font-size: 2rem;
+    color: rgb(154, 194, 159);
     margin: 0;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    margin-bottom: 1vh;
+    text-align: center;
+    margin-top: 5vh;
+
+}
+
+.full-projet p {
     color: #f1f1f1;
     text-align: center;
   }
@@ -34,8 +37,23 @@ h3{
     width: 100%;
     border: #5a5e5a 1px solid;
     padding: 0;
+    border-radius: 7px;
+    margin-bottom: 2.5vh;
+    margin-top: 1vh;
 }
 
 .boiteprojets{
     flex-direction: column;
+}
+
+.lien{
+    font-size: larger;
+}
+
+.anchorfix{
+    width: 50vw;
+    min-height: 70vh;
+    display: flex ;
+    justify-content: center;
+    align-items: center ;
 }

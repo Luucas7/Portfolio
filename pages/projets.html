@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,23 +12,20 @@
   <link href="../style/contact.css" rel="stylesheet">
   <link href=".//style/timeline.css" rel="stylesheet">
   <link href="../style/projets.css" rel="stylesheet">
-
   <link type="image/png" rel="icon" href="../data/images/icone.png">
 </head>
 <body>
 <!--Menu-->
 <header>
   <ul class="menu"> 
-    <li id="auteur"><a href="../index.html#accueil">Lucas Merlin</a></li>
+    <li id="auteur"><a href="../index.html">Retour</a></li>
     <li class="espace"></li>
-    <li class="onglet"><a href="../index.html#apropos">A propos</a></li>
-    <li class="onglet"><a href="../index.html#connaissances">Connaissances</a></li>
-    <li class="onglet"><a href="../index.html#competences">Compétences</a></li>
-    <li class="onglet"><a href="../index.html#qualites">Qualités</a></li>
-    <li class="onglet"><a href="../index.html#parcours">Parcours</a></li>
-    <li class="onglet"><a href="../index.html#projets">Projets</a></li>
-    <li class="onglet"><a href="../index.html#loisirs">Loisirs</a></li>
-    <li class="onglet"><a href="../index.html#contact">Contact</a></li>
+    <li class="onglet"><a href="#batailleboules">Bataille de Boules</a></li>
+    <li class="onglet"><a href="#siteCordoue">Cordoue</a></li>
+    <li class="onglet"><a href="#bdd">BDD Cimetière</a></li>
+    <li class="onglet"><a href="#bricololo">Bricololo</a></li>
+    <li class="onglet"><a href="#backpack">Backpack Hero</a></li>
+    <li class="onglet"><a href="#graphes">Graphes</a></li>
     <li id="menuLateral">
       <button type="button" class="nav-toggler">
         <span class="line l1"></span>
@@ -43,103 +39,145 @@
   <!--Menu latéral-->
   <nav>
     <a href="../index.html">
-      <p>A propos</p>
+      <p>Retour</p>
     </a>
-    <a href="../index.html#connaissances">
-      <p>Connaissances</p>
+    <a href="#batailleboules">
+      <p>Bataille de Boules</p>
+    </a>
+    <a href="#siteCordoue">
+      <p>Cordoue</p>
+    </a>
+    <a href="#bricololo">
+      <p>BDD Cimetière</p>
     </a>
 
-    <a href="../index.html#competences">
-      <p>Compétences</p>
+    <a href="#backpack">
+      <p>Backpack Hero</p>
     </a>
-
-    <a href="../index.html#qualites">
-      <p>Qualités</p>
-    </a>
-    <a href="../index.html#parcours">
-      <p>Parcours</p>
-    </a>
-    <a href="../index.html#projets">
-      <p>Projets</p>
-    </a>
-    <a href="../index.html#loisirs">
-      <p>Loisirs</p>
-    </a>
-    <a href="../index.html#contact">
-      <p>Contact</p>
+    <a href="#graphes">
+      <p>Graphes</p>
     </a>
   </nav>
-  <!--Accueil-->
-  <div id="accueil">
-    <h1>
-      LUCAS<br>
-      MERLIN<br>
-    </h1>
-    <p id="welcome"> Bienvenue sur mon Portfolio</p>
-  </div>
 
-<div class="flexboxcolonne hautduspine">
-  <!--Projets-->
-  <div class="boite dark" id="projets">
-    <h2 style="margin-bottom:7vw;">Projets</h2>
+  <div class="flexboxcolonne hautduspine">
+    <!--Projets-->
+    <div class="boite dark" id="projets">
+      <h2 style="margin-bottom:7vw;">Mes Projets</h2>
 
-    <div class="boiteprojets">
+      <div class="boiteprojets">
 
-      <div class="flexboxcolonne full-projet" id="batailleboules">
-        <h3>Bataille de Boules</h3>
-        <img src="../data/images/batailleboules.png" alt="Projet Bataille de Boules">
-        <p>Jeu de tour à tour avec interface graphique, réalisé avec une bibliothèque dérivée de Tkinter
-            Développer une application répondant à un ensemble d'algorithmes de jeux.
-        </p>
-      </div>
-      <div class="flexboxcolonne full-projet" id="siteCordoue">
+        <div class="anchorfix" id="batailleboules">
+          <div class="flexboxcolonne full-projet">
+            <h3>Bataille de Boules</h3>
+            <img src="../data/images/batailleboules.png" alt="Projet Bataille de Boules">
+            <p>Jeu de tour à tour avec interface graphique, réalisé avec une bibliothèque dérivée de Tkinter, le principe est d'occuper la plus grande aire possible en posant des cercles dans la zone.</p>
+            <div>
+              <h4>Langages & outils</h4>
+              <p class="language">Python</p>
+            </div>
+              <div class="liste-competences">
+              <h4>Compétences</h4>
+              
+              <p>Implémenter des conceptions simples</p>
+              <p>Comparer des algorithmes pour des problèmes classiques</p>
+            </div>
+          </div>
+        </div>
 
-        <h3>Cordoue</h3>
-        <img src="../data/images/siteCordoue.png" alt="Site web sur Cordoue">
-        <p><br>Médiation culturelle et numérique, pour la ville de Cordoue</p>
-        <p><br>HTML, CSS, PHP, JS<br></p>
-      </div>
+        <div class="anchorfix" id="siteCordoue">
+          <div class="flexboxcolonne full-projet">
+            <h3>Cordoue</h3>
+            <img src="../data/images/siteCordoue.png" alt="Site web sur Cordoue">
+            <p>Projet de médiation culturelle et numérique pour la ville de Cordoue, le but étant de mettre la lumière sur une ville espagnole en présentant son riche patrimoine historique et culturel</p>
+            <div>
+              <h4>Langages & outils</h4>
+              <p class="language">HTML, CSS, PHP, SQL, JS</p>
+            </div>
+              <div class="liste-competences">
+              <h4>Compétences</h4>
+              <p>Développement de sites Web</p>
+              <p>Travailler dans une équipe informatique</p>
+              <p>Conduire un projet</p>
+            </div>
+          </div>
+        </div>
 
-      <div class="flexboxcolonne full-projet" id="bdd">
-        <h3>Cimetière</h3>
-        <img src="../data/images/bdd.png" alt="base de donnees cimetiere">
-        <p><br>Site web dynamique avec la base de données d'un cimetière </p>
-        <p><br>HTML, CSS, PHP, PostGreSQL<br></p>
-      </div>
+        <div class="anchorfix" id="bdd">
+          <div class="flexboxcolonne full-projet">
+            <h3>Cimetière</h3>
+            <img src="../data/images/bdd.png" alt="base de donnees cimetiere">
+            <p>Ce projet implique la création d'une interface web dynamique dédiée à la gestion d'un cimetière. Cette interface offre une multitude d'actions et de fonctionnalités différenciées en fonction du type d'utilisateur, permettant ainsi une expérience personnalisée répondant spécifiquement à leurs besoins et exigences.</p>
+            <div>
+              <h4>Langages & outils</h4>
+              <p class="language">HTML, CSS, PHP, SQL</p>
+            </div>
+              <div class="liste-competences">
+              <h4>Compétences</h4>
+              <p>Gérer des données</p>
+              <p>Développement d'interfaces web</p>
+            </div>
+          </div>
+        </div>
 
-      <div class="flexboxcolonne full-projet" id="bricololo">
-        <h3>Bricololo</h3>
-        <img src="../data/images/bricololo.png" alt="Site web sur Cordoue">
-        <p><br>Maquettage complet d'une application de bricolage</p>
-        <p><br>Figma</p>
-      </div>
-      <div class="flexboxcolonne full-projet" id="backpack">
-        <h3>Backpack Hero</h3>
-        <img src="../data/images/backpack.png" alt="Jeu Java">
-        <p><br>Version simplifiée du jeu Backpack Hero</p>
-        <p><br>Java, POO</p>
-      </div>
+        <div class="anchorfix" id="bricololo">
+          <div class="flexboxcolonne full-projet">
+            <h3>Bricololo</h3>
+            <img src="../data/images/bricololo.png" alt="Site web sur Cordoue">
+            <p>Maquettage complet d'une application de bricolage, offrant une visualisation détaillée de l'interface et de l'expérience utilisateur. Cette maquette comprend une conception exhaustive de toutes les fonctionnalités, permettant ainsi de visualiser l'ensemble du flux de l'application.</p>
+            <div>
+              <h4>Langages & outils</h4>
+              <p class="language">Figma</p>
+            </div>
+              <div class="liste-competences">
+              <h4>Compétences</h4>
+              <p>Conception d'applications</p>
+              <p>Conduire un projet</p>
+            </div>
+          </div>
+        </div>
 
-      <div class="flexboxcolonne full-projet" id="graphes">
-        <h3>Graphes</h3>
-        <img src="../data/images/graphes.png" alt="Graphes">
-        <p><br>Implémentation d'automates</p>
-        <p><br>Python, Automates</p>
+        <div class="anchorfix" id="backpack">
+          <div class="flexboxcolonne full-projet">
+            <h3>Backpack Hero</h3>
+            <img src="../data/images/backpack.png" alt="Jeu Java">
+            <p>Version simplifiée du jeu <a class="lien" href="https://thejaspel.itch.io/backpack-hero">Backpack Hero</a><br>Développé en Java, il met l'accent sur la conception logicielle en utilisant la programmation orientée objet (POO) et intègre une interface graphique</p>
+            <div>
+              <h4>Langages & outils</h4>
+              <p class="language">Java</p>
+            </div>
+              <div class="liste-competences">
+              <h4>Compétences</h4>
+              <p>Développer des applications informatiques</p>
+              <p>Appréhender et construire des algorithmes</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="anchorfix" id="graphes">
+          <div class="flexboxcolonne full-projet">
+            <h3>Graphes</h3>
+            <img src="../data/images/graphes.png" alt="Graphes">
+            <p>Implémentation d'automates ainsi que des algorithmes associés. Ce projet, réalisé en Python, couvre l'ensemble du processus, allant de la création initiale des automates jusqu'à leur optimisation. J'ai mis l'accent sur la conception et l'optimisation efficace de ces automates pour atteindre des performances optimales.</p>
+            <div>
+              <h4>Langages & outils</h4>
+              <p class="language">Python</p>
+            </div>
+              <div class="liste-competences">
+              <h4>Compétences</h4>
+              <p>Optimiser des applications</p>
+              <p>Réaliser un développement d'application</p>
+          </div>
       </div>
     </div>
 
   </div>
 </div>
-
-
-
-
-<footer style="padding-bottom:5vh;">
+  <footer style="padding-bottom:5vh;width: 100%;">
   <div style="align-items: center;display: flex;flex-direction: column;" class="colonne">
     <h3 style="font-size:24px">Mon école</h3>
     <a href="https://iut.univ-gustave-eiffel.fr" class="flexboxcolonne">
 
-      <p style="margin-top:3vh;">IUT de Marne-la-Vallée - Université Gustave Eiffel</p>
+      <p style="margin-top:3vh;margin-bottom: 1.5vh; text-align: center;">IUT de Marne-la-Vallée - Université Gustave Eiffel</p>
       <img id="iutfooter" src="../data/images/iut.png" alt="IUT">
     </a>
   </div>
@@ -150,6 +188,7 @@
     <p style="font-size: 18px;">Images : <a href="https://creativecommons.org/">Creative Commons</a></p>
   </div>
 </footer>
+
 
 <script src="../scripts/menuLateral.js"></script>
 </body>

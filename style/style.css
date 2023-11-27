@@ -146,7 +146,7 @@ h2 {
 .dark h2 {
   background-color: var(--h2-light-background);
   color: var(--h2-dark-text);
-  border: #c5c5c5 2px outset;
+  border: #aaa5a5 2px outset;
   -webkit-text-stroke: 3px outset var(--h2-light-text);
 }
 
@@ -177,6 +177,7 @@ h2 {
 
 
 
+
 .boite p {
 
   font-size: larger;
@@ -196,7 +197,7 @@ h2 {
   margin-top: 4vh;
   background-color: #212529;
   width: 60vw;
-  border: 3px solid #d3d3d3;
+  border: 2px solid #949494;
   margin: 0 0 3%;
   border-radius: 7px 7px 7px 7px;
   -webkit-border-radius: 7px 7px 7px 7px;
@@ -204,8 +205,42 @@ h2 {
   box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
   -webkit-box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
   -moz-box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
-
 }
+
+
+.back{
+  width: 95%;
+  height: 8px;
+  margin-top: 4px;
+  margin-bottom: 7px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 5px;
+}
+.percentage{
+  height: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+.p50{
+  width: 50%;
+  background-image: linear-gradient(to right, #D9ED92, #B5E48C, #99D98C, #76C893, #52B69A);
+}
+
+.p75{
+  width: 75%;
+  background-image: linear-gradient(to right, #D9ED92, #B5E48C, #99D98C, #76C893, #52B69A, #34A0A4, #168AAD);
+}
+
+.p90{
+  width: 90%;
+  background-image: linear-gradient(to right, #D9ED92, #B5E48C, #99D98C, #76C893, #52B69A, #34A0A4, #168AAD, #1A759F, #1E6091, #184E77);
+}
+
+.connaissancescol{
+  margin: 5px;
+}
+
 
 #connaissances a, .contact a{
   width: 5vw;
@@ -218,11 +253,11 @@ h2 {
 .imageresize {
   width: 100%;
   height: 100%;
-  padding: 5%;
+  padding: 6%;
   margin: 1.5%;
   object-fit: contain;
-  background-color: #e2e2e2;
-  border: 3px solid #dddddd;
+  background-color: #ececec;
+  border: 2px solid #242323;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -363,7 +398,6 @@ h2 {
   box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
   -webkit-box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
   -moz-box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
-  cursor: pointer;
 }
 
 .qualibox:hover {
@@ -407,7 +441,6 @@ h3{
 footer .colonne p {
   font-size: 20px;
   color: rgb(255, 255, 255);
-  cursor: pointer;
 }
 
 footer .colonne a:hover {
@@ -471,8 +504,6 @@ footer {
 .projet:hover {
 
   box-shadow: 7px 7px 5px 0px rgba(78, 78, 78, 0.75);
-  -webkit-box-shadow: 7px 7px 5px 0px rgba(78, 78, 78, 0.75);
-  -moz-box-shadow: 7px 7px 5px 0px rgba(78, 78, 78, 0.75);
   transition: 0.3s;
   transform: scale(1.005);
 }
@@ -486,39 +517,42 @@ footer {
   margin-bottom: 5vh;
   margin-top: 15vh;
   padding: 0.5vw 1vw 0.5vw;
-  border: 2px solid #aaa5a5;
   word-wrap: break-word;
+  width: 80vw;
+  border: 2px solid #aaa5a5;
+  border-radius: 7px;
+  box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
+  height: auto;
+  display: flex;
+}
 
-border-radius: 7px;
--webkit-border-radius: 7px;
--moz-border-radius: 7px;
-box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
--webkit-box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
--moz-box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
-cursor: pointer;
+.apropos_p div:not(.squared_image){
+  width: 80%;
+}
 
-width: max-content;
-height: auto;
-
-display: flex;
-background-color: #303030;
+.apropos_p .squared_image{
+  width: 20%;
 }
 
 .squared_image{
-  width: 10vw;
-  height: 10vw;
-  overflow: hidden;
-  border: #a7afb6 3px solid;
-  border-radius: 18px 18px 18px 18px;
-  -webkit-border-radius: 18px 18px 18px 18px;
-  -moz-border-radius: 18px 18px 18px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.apropos_p img{
+
+.apropos_p .squared_image img{
 object-fit: cover;
 box-sizing: content-box;
-width: 100%;
-height: auto;
+width: 20vb;
+height: 20vb;
+overflow: hidden;
+border-radius: 18px 18px 18px 18px;
+border: 2px solid #e2e2e2;
+}
+
+.apropos_p p{
+  text-align: left;
 }
 
 .boite_apropos{
@@ -616,14 +650,12 @@ height: auto;
   }
 
   #parcours h3 {
-    
   margin-left:5vw;
   }
 
 
   .boiteprojets {
     flex-direction: column;
-
   }
 
   .projet {
@@ -641,6 +673,11 @@ height: auto;
     height: 150px;
     margin-top: 5vh;
   }
+  
+.margin_competences{
+  margin-bottom: 0;
+
+}
 
   
 #connaissances a, .contact a{
