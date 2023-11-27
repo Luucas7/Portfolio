@@ -239,13 +239,14 @@ h2 {
 
 .connaissancescol{
   margin: 5px;
+  background-color: #2e3031;
+  border-radius: 10px;
 }
 
 
 #connaissances a, .contact a{
   width: 5vw;
   height: 5vw;
-  padding: 0.5%;
   margin: 1.5%;
  
 }
@@ -710,8 +711,9 @@ border: 2px solid #e2e2e2;
     margin: 15px;
   }
 
-  
+  .connaissancescol{
+    margin-bottom: 3vh;
 
-
+  }
 }
 
