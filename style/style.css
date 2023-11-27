@@ -251,6 +251,11 @@ h2 {
  
 }
 
+.dark-back-image{
+  background-color: #2e3031;
+  border-radius: 10px;
+}
+
 .imageresize {
   width: 100%;
   height: 100%;
