@@ -48,7 +48,6 @@ function sendMail($name, $email, $body)
         return true;
     } catch (Exception $e) {
         echo $e->getMessage();
-        exit;
         return false;
     }
 }
