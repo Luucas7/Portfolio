@@ -1,167 +1,227 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lucas Merlin</title>
-  
-  <link href="../style/colors.css" rel="stylesheet">
-  <link href="../style/burger.css" rel="stylesheet">
-  <link href="../style/fondanime.css" rel="stylesheet">
-  <link href="../style/style.css" rel="stylesheet">
-  <link href="../style/projets.css" rel="stylesheet">
-  <link href="../style/competences.css" rel="stylesheet">
-  <link type="image/png" rel="icon" href="../data/images/icone.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Merlin</title>
 
-  
-</head>
-<body>
-<!--Menu-->
-<header>
-  <ul class="menu"> 
-    <li id="auteur"><a href="../index.html">Retour</a></li>
-    <li class="espace"></li>
-    <li class="onglet"><a href="realiser.html" class="realiser-hover">Réaliser</a></li>
-    <li class="onglet"><a href="optimiser.html" class="optimiser-hover">Optimiser</a></li>
-    <li class="onglet"><a href="administrer.html" class="administrer-hover">Administrer</a></li>
-    <li class="onglet"><a href="gerer.html" class="gerer-hover">Gérer</a></li>
-    <li class="onglet"><a href="conduire.html" class="conduire-hover">Conduire</a></li>
-    <li class="onglet"><a href="collaborer.html" class="collaborer-hover">Collaborer</a></li>
-    <li id="menuLateral">
-      <button type="button" class="nav-toggler">
-        <span class="line l1"></span>
-        <span class="line l2"></span>
-        <span class="line l3"></span>
-      </button>
-    </li>
-  </ul>
-</header>
+    <link href="../style/colors.css" rel="stylesheet" />
+    <link href="../style/burger.css" rel="stylesheet" />
+    <link href="../style/fondanime.css" rel="stylesheet" />
+    <link href="../style/style.css" rel="stylesheet" />
+    <link href="../style/projets.css" rel="stylesheet" />
+    <link href="../style/competences.css" rel="stylesheet" />
+    <link type="image/png" rel="icon" href="../data/images/icone.png" />
+  </head>
+  <body>
+    <!--Menu-->
+    <header>
+      <ul class="menu">
+        <li id="auteur"><a href="../index.html">Retour</a></li>
+        <li class="espace"></li>
+        <li class="onglet">
+          <a href="realiser.html" class="realiser-hover">Réaliser</a>
+        </li>
+        <li class="onglet">
+          <a href="optimiser.html" class="optimiser-hover">Optimiser</a>
+        </li>
+        <li class="onglet">
+          <a href="administrer.html" class="administrer-hover">Administrer</a>
+        </li>
+        <li class="onglet">
+          <a href="gerer.html" class="gerer-hover">Gérer</a>
+        </li>
+        <li class="onglet">
+          <a href="conduire.html" class="conduire-hover">Conduire</a>
+        </li>
+        <li class="onglet">
+          <a href="collaborer.html" class="collaborer-hover">Collaborer</a>
+        </li>
+        <li id="menuLateral">
+          <button type="button" class="nav-toggler">
+            <span class="line l1"></span>
+            <span class="line l2"></span>
+            <span class="line l3"></span>
+          </button>
+        </li>
+      </ul>
+    </header>
 
-  <!--Menu latéral-->
-  <nav>
-    <a href="../index.html">
-      <p>Retour</p>
-    </a>
-    <a href="realiser.html">
-      <p>Réaliser</p>
-    </a>
-    <a href="optimiser.html">
-      <p>Optimiser</p>
-    </a>
-    <a href="administrer.html">
-      <p>Administrer</p>
-    </a>
-    <a href="gerer.html">
-      <p>Gérer</p>
-    </a>
-    <a href="conduire.html">
-      <p>Conduire</p>
-    </a>
-    <a href="collaborer.html">
-      <p>Collaborer</p>
-    </a>
-  </nav>
+    <!--Menu latéral-->
+    <nav>
+      <a href="../index.html">
+        <p>Retour</p>
+      </a>
+      <a href="realiser.html">
+        <p>Réaliser</p>
+      </a>
+      <a href="optimiser.html">
+        <p>Optimiser</p>
+      </a>
+      <a href="administrer.html">
+        <p>Administrer</p>
+      </a>
+      <a href="gerer.html">
+        <p>Gérer</p>
+      </a>
+      <a href="conduire.html">
+        <p>Conduire</p>
+      </a>
+      <a href="collaborer.html">
+        <p>Collaborer</p>
+      </a>
+    </nav>
 
-  <div class="flexboxcolonne hautduspine">
+    <div class="flexboxcolonne hautduspine">
+      <div class="boite light" id="optimiser">
+        <h2 class="optimiser competence-box">Optimiser</h2>
+        <div class="boitequalites mb-20">
+          <div class="flexboxcolonne" style="width: 50vmax">
+            <!-- Première ligne -->
+            <div class="competence-resume ">
+              <h3 class="paragraph-title">Description de la compétence</h3>
+              <p>
+                Cette compétence consiste à analyser des applications existantes
+                ou des algorithmes et proposer des améliorations en termes de
+                performances, de consommation de ressources ou d'empreinte
+                environnementale. Il s'agit d'appréhender des problématiques
+                algorithmiques complexes et de choisir les structures de données
+                et techniques les plus adaptées.
+                <br /><br />
+                Les cours concernés par cette compétences on été principalement
+                le <b>cours d'algorithmique en Python</b> en première annnée,
+                nous apprenant les algorithmes et structures de données,
+                également, le cours de <b>C</b> en deuxième année qui mettait
+                plus l'accent sur l'utilisation de l'espace mémoire et des
+                ressources. Enfin,
+                <b>les cours d'informatique théorique</b> m'ont appris plein de
+                notions sur les graphes, les automates, et l'optimisation
+                d'algorithmes.
+              </p>
+              <hr class="hr-centered m-bottom-5 optimiser-hover">
 
-    <div class="boite light" id="optimiser">
+            </div>
 
-      <h2 class="optimiser competence-box">Optimiser</h2>
-      <div class="boitequalites mb-20" >
+            <!-- Deuxième ligne -->
+            <div class="competence-resume ">
+              <h3 class="paragraph-title">Mon expérience</h3>
+              <p>
+                J'ai pu développer cette compétence notamment lors de projets
+                personnels où j'ai développé et optimisé des algorithmes de tri,
+                de recherche, et sur les graphes. Cela me passionne de
+                m'intéresser à trouver la solution la plus optimale pour un
+                problème donné, mais il n'est pas vraiment possible de le faire
+                dans le cadre des projets universitaires car le temps est limité
+                et l'essentiel est de remplir les exigences fournies.
+              </p>
+            </div>
 
-        <div class="flexboxcolonne" style="width: 50vmax;">
-          <!-- Première ligne -->
-          <div class="competence-resume text-align-center">
-            <h3 class="paragraph-title">Description de la compétence</h3>
-            <p>
-              Cette compétence consiste à analyser des applications existantes ou des algorithmes et proposer des améliorations en termes de performances,
-              de consommation de ressources ou d'empreinte environnementale.
-              Il s'agit d'appréhender des problématiques algorithmiques complexes et de choisir les structures de données et techniques les plus adaptées.
-            </p>
-          </div>
-
-          <!-- Deuxième ligne -->
-          <div class="competence-resume text-align-center">
-            <h3 class="paragraph-title">Mon expérience</h3>
-            <p>
-              J'ai pu développer cette compétence notamment lors de projets personnels où j'ai développé et optimisé des algorithmes de tri,
-              de recherche, et sur les graphes.
-              Cela me passionne de m'intéresser à trouver la solution la plus optimale pour un problème donné,
-              mais il n'est pas vraiment possible de le faire dans le cadre des projets 
-              universitaires car le temps est limité et l'essentiel est de remplir les exigences fournies.
-            </p>
-          </div>
-
-          <div class="w-100 flexboxcolonne">
-
-            <!-- Troisième ligne -->
-              <div class="flexboxrow space-between gap-2 m-top-10 no-align-items">
-              
-                <div class="">
+            <div class="w-100 flexboxcolonne">
+              <!-- Troisième ligne -->
+              <div
+                class="flexboxrow space-between gap-2 m-top-10 no-align-items"
+              >
+                <div class="w-50">
                   <p class="ac-title nice">Mes acquis</p>
                   <ul>
                     <li><p>Choisir les structures de données adaptées</p></li>
-                    <li><p>Utiliser des techniques algorithmiques adaptées pour des problèmes complexes</p></li>
-                    <li><p>Comprendre les enjeux et moyens de sécurisation des données</p></li>
-                    <li><p>Évaluer l'impact environnementale et sociétal des solutions proposées</p></li>
+                    <li>
+                      <p>
+                        Utiliser des techniques algorithmiques adaptées pour des
+                        problèmes complexes
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Comprendre les enjeux et moyens de sécurisation des
+                        données
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Évaluer l'impact environnementale et sociétal des
+                        solutions proposées
+                      </p>
+                    </li>
                   </ul>
                 </div>
+                
 
-                <div>
+                <div class="w-50">
                   <p class="ac-title learning">En cours d'amélioration...</p>
                   <ul>
                     <li><p></p></li>
                   </ul>
                 </div>
-
-            </div>
-
-            <!-- Quatrième ligne -->
-            <h3 class="paragraph-title">Projet connexe</h3>
-
-            <div class="project-presentation">
-              
-              <div class="">
-                <a class="project-container" href="../pages/projets.html#batailleboules">
-                  <h3>Bataille de boules</h3>
-                  <img src="../data/images/batailleboules.png" alt="Bataille de boules">
-                </a>
               </div>
-              <p>
-                J'ai passé beaucoup de temps sur le fait de délivrer un jeu optimisé, propre à lire, et potentiellement maintenable.
-                Trouver les bonnes pratiques pour le jeu m'a appris à optimiser mon code et à le rendre plus lisible. 
-                <br><br><a class="optimiser-hover lien" href="https://github.com/Luucas7/batailledeboules">Lien Github</a>
 
-              </p>
+
+              <!-- Quatrième ligne -->
+
+              <div class="project-presentation m-top-10">
+                <div class="">
+                  <a
+                    class="project-container"
+                    href="../pages/projets.html#batailleboules"
+                  >
+                    <h3>Bataille de boules</h3>
+                    <img
+                      src="../data/images/batailleboules.png"
+                      alt="Bataille de boules"
+                    />
+                  </a>
+                </div>
+                <p>
+                  J'ai passé beaucoup de temps sur le fait de délivrer un jeu
+                  optimisé, propre à lire, et potentiellement maintenable.
+                  Trouver les bonnes pratiques pour le jeu m'a appris à
+                  optimiser mon code et à le rendre plus lisible.
+                  <br /><br /><a
+                    class="optimiser-hover lien"
+                    href="https://github.com/Luucas7/batailledeboules"
+                    >Lien Github</a
+                  >
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      
     </div>
+    <footer style="padding-bottom: 5vh; width: 100%">
+      <div
+        style="align-items: center; display: flex; flex-direction: column"
+        class="colonne"
+      >
+        <h3 style="font-size: 24px">Mon école</h3>
+        <a href="https://iut.univ-gustave-eiffel.fr" class="flexboxcolonne">
+          <p style="margin-top: 3vh; margin-bottom: 1.5vh; text-align: center">
+            IUT de Marne-la-Vallée - Université Gustave Eiffel
+          </p>
+          <img
+            loading="lazy"
+            id="iutfooter"
+            src="../data/images/iut.png"
+            alt="IUT"
+          />
+        </a>
+      </div>
+      <div class="colonne">
+        <h3 style="font-size: 24px">Mentions Légales</h3>
+        <p style="margin-top: 3vh">© 2022/2024 Merlin Lucas</p>
+        <p style="font-size: 18px; margin-top: 7vh">
+          Icônes : <a class="lien" href="https://icones8.fr/">Icons8</a>
+        </p>
+        <p style="font-size: 18px">
+          Images :
+          <a class="lien" href="https://creativecommons.org/"
+            >Creative Commons</a
+          >
+        </p>
+      </div>
+    </footer>
 
-  
-  </div>
-</div>
-  <footer style="padding-bottom:5vh;width: 100%;">
-  <div style="align-items: center;display: flex;flex-direction: column;" class="colonne">
-    <h3 style="font-size:24px">Mon école</h3>
-    <a href="https://iut.univ-gustave-eiffel.fr" class="flexboxcolonne">
-
-      <p style="margin-top:3vh;margin-bottom: 1.5vh; text-align: center;">IUT de Marne-la-Vallée - Université Gustave Eiffel</p>
-      <img loading="lazy"id="iutfooter" src="../data/images/iut.png" alt="IUT">
-    </a>
-  </div>
-  <div class="colonne">
-    <h3 style="font-size:24px">Mentions Légales</h3>
-    <p style="margin-top:3vh;">© 2022/2024 Merlin Lucas</p>
-    <p style="font-size: 18px;margin-top:7vh">Icônes : <a class="lien" href="https://icones8.fr/">Icons8</a></p>
-    <p style="font-size: 18px;">Images : <a  class="lien" href="https://creativecommons.org/">Creative Commons</a></p>
-  </div>
-</footer>
-
-
-<script src="../scripts/menuLateral.js"></script>
-</body>
+    <script src="../scripts/menuLateral.js"></script>
+  </body>
 </html>
