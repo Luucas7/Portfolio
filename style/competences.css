@@ -71,7 +71,6 @@
 .project-presentation{
     border-radius: 7px 7px 7px 7px;
     box-shadow: 3px 3px 5px 0px rgba(78, 78, 78, 0.75);
-    cursor: pointer;
     border: 2px solid #aaa5a5;
     background-color: #303030;
     color: var(--h2-light-text);
@@ -103,18 +102,35 @@
 .project-container img {
     width: 95%;
     height: 95%;
-    margin: 5px;
+    margin: 20px;
     border: 1px outset #aaa5a5;
     border-radius: 5px;
 }
 
 .ac-title{
     margin-bottom: 10px;
-    margin-top: 20px;
 }
 .nice{
     color: #15a334;
 }
 .learning{
     color: #0c9aeb;
+}
+
+.no-align-items{
+    align-items: unset;
+}
+
+.paragraph-title{
+    color: #292525;
+    margin-top: 8vmax;
+    margin-bottom: 2vmax;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.gap-2{
+    gap: 2vmin;
 }
